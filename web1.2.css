@@ -1,0 +1,23 @@
+*{
+    background-color: #093740;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+}
+
+.posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 1% 0.5%;
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+.poster{
+    margin: 0% 4%;
+    border-radius: 0.3%;
+}
